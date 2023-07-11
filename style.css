@@ -40,35 +40,49 @@
     height: 100vh;
 
 }
+.bonus-container{
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
 .bonus-desc {
     text-align: center;
     font-size: 10px;
     color: black;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 .bonus-image{
-    width: 100%;
+    width: 75%;
     display: flex;
     gap: 15px;
     align-items: center; 
-    padding: 0 20%;  
+    justify-content: center;
+
 }
 .bonus-img{
     display: flex;
-    width: 25%;
-    padding: 0 50px;  
-    background-color: gray;
-
+    align-items: center;
 }
-.bonus-img img{
-    width: 75%;
+.imga{
+    border-radius: 50% 50% 0 0;
+    background-color:#E55473;
+    height: 300px;
+    width: 250px;
 }
-
-.bonus-img-div{
-    width: 75%;
+.imgb{
+    border-radius: 50% 50% 0 0;
+    background-color:powderblue;
+    height: 300px;
+    width: 250px;
 }
-
-
+.imgc{
+    border-radius: 50% 50% 0 0;
+    background-color:aquamarine;
+    height: 300px;
+    width: 250px;
+}
 .signup-container{
     background-color: rgba(229, 84, 115, 0.05);
     display: flex;
