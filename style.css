@@ -1,6 +1,8 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .banner-container {
     background-color: rgba(229, 84, 115, 0.05);
@@ -28,7 +30,6 @@
     border-radius: 5px;
     padding: 10px 15px;
     font-size: 12px;
-    font-weight: bold;
     width: 90px;
 }
 .banner-img{
@@ -39,7 +40,33 @@
     height: 100vh;
 
 }
+.bonus-desc {
+    text-align: center;
+    font-size: 10px;
+    color: black;
+    margin-bottom: 15px;
+}
+.bonus-image{
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    align-items: center; 
+    padding: 0 20%;  
+}
+.bonus-img{
+    display: flex;
+    width: 25%;
+    padding: 0 50px;  
+    background-color: gray;
 
+}
+.bonus-img img{
+    width: 75%;
+}
+
+.bonus-img-div{
+    width: 75%;
+}
 
 
 .signup-container{
@@ -133,4 +160,13 @@
     color: white;
     height: 300px;
     justify-content: center;
+}
+.footer-desc{
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.footer-title{
+    font-size: 30px;
+    margin-bottom: 20px;
 }
